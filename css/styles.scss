@@ -1,0 +1,156 @@
+/*/ - - - - - Variables - - - - - -/*/
+$background_gray: #ffffff; //#fdfcfc;
+$soft_gray: #fdfcfc;
+$orange_1: #F6B352;
+$orange_2: #F68657;
+$dark_gray: #383A3F;
+$black: #1F2124;
+$underline_blue: #2196f3;
+$labels_: #948d88;
+
+$scale: 1.4;
+
+
+/*/ - - - - - General - - - - - -/*/
+
+*, *::before, *::after  {
+  box-sizing: border-box;
+  z-index: 1;
+  scroll-behavior: smooth;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Ubuntu', Helvetica, sans-serif; 
+}
+
+hr{
+  box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+figure{
+  margin: 0;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+a{
+  text-decoration: none;
+}
+
+input[type=button]:active {
+    box-shadow: 0 5px $underline_blue;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+/*/- - - - - - - - - - - Section Styles- - - - - - - - - - - -/*/
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+
+
+.btn-wpr{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+// #api-test{
+//     color: #717171;
+//     padding: 1rem 2rem;
+//     border: 2px solid #2196f3;
+//     box-shadow: 0 0 26px -3px #d0d0d0;
+//     border-radius: 11px;
+//     font-size: 2rem;
+//     cursor: pointer;
+// }
+// #local-response-test{
+//     color: #717171;
+//     padding: 1rem 2rem;
+//     border: 2px solid #2196f3;
+//     box-shadow: 0 0 26px -3px #d0d0d0;
+//     border-radius: 11px;
+//     font-size: 2rem;
+//     cursor: pointer;
+// }
+.content-wrapper{
+    color: red;
+}
+#content{
+    color: #676767;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    overflow-y: scroll;
+}
+.content-wrapper{
+    color: red;
+}
+#confidence{
+    color: red;    
+}
+.error-message{
+    color: rgb(152, 43, 43);    
+    background-color: rgb(244, 196, 196)
+}
+.hidden{
+    display: none;
+}
+#canvas-imagensita{
+    z-index: -5;;
+}
+#imagensita{
+    z-index: -5;;
+}
+
+
+
+
+
+
+
+
+
+
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+/*/- - - - - - - - - - - Media Queries- - - - - - - - - - - - /*/
+/*/- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -/*/
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
+
+
+
+
+

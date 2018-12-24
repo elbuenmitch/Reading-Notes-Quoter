@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Vision Cloud Test Sheet</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="section"></div>
+
+    <div class="container row center">
+        <div class="col ">
+            <div class="btn" id="api-test">API call!</div>
+        </div>
+        
+        <div class="col">
+            <div class="btn" id="local-response-test">Local response!</div>
+        </div>
+    </div>
+    <div class="section"></div>
+    
+    <div class="container">
+
+        <div class="input-field col s12 m6">
+            <select class="icons material-select" id="images-dropdown">
+                <option value="" disabled selected>Choose your option</option>
+                <!-- <option value="" data-icon="images/sample-1.jpg">example 1</option>
+                <option value="" data-icon="images/office.jpg">example 2</option>
+                <option value="" data-icon="images/yuna.jpg">example 3</option> -->
+            </select>
+            <label>Images in select</label>
+        </div>
+    </div>
+
+    <div class="section"></div>
+    
+    <div class="container row">
+        <div class="col s6">
+            <canvas id="canvas-imagensita" class="hidden" height="400" width="300"></canvas>
+            <img class="materialboxed" id="imagensita" height="400">
+        </div> 
+        <div class="col s6">
+            <div class="content-wrapper">
+                <p id="content"></p>
+            </div>
+        </div> 
+    </div>
+
+    
+
+    <div class="content-wrapper">
+        <p id="confidence"></p>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script> -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+    
+
+    
+</body>
+</html>
